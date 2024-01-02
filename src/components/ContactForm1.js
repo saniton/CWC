@@ -138,7 +138,10 @@ const ContactForm1 = () => {
       </div>
       <div className="col-md-6">
       <h2>Location</h2>
-      <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3848.4881735446356!2d73.97092247385655!3d15.295682959684125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb17b1aac93a7%3A0x8357dad7417e5d16!2sFatorda%20Police%20Station!5e0!3m2!1sen!2sin!4v1702988854991!5m2!1sen!2sin" className='rounded' width="500" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+      <div class="embed-responsive embed-responsive-16by9">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3848.4881735446356!2d73.97092247385655!3d15.295682959684125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb17b1aac93a7%3A0x8357dad7417e5d16!2sFatorda%20Police%20Station!5e0!3m2!1sen!2sin!4v1702988854991!5m2!1sen!2sin"
+    class="embed-responsive-item rounded" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
     </div>
     </div>
     </div>
